@@ -1,0 +1,25 @@
+{
+  "update_url": "http://clients2.google.com/service/update2/crx",
+  "name": "A Rounder YouTube",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Makes YouTube UI more rounder and modern",
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "app.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "http://youtube.com/*"
+  ]
+}

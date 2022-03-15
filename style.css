@@ -1,0 +1,24 @@
+#container.ytd-masthead {
+  background-color: rgba(216, 216, 216, 0) !important;
+}
+.html5-video-player {
+  border-radius: 15px !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+ytd-thumbnail #thumbnail.ytd-thumbnail {
+  border-radius: 10px !important;
+}
+ytd-thumbnail.ytd-rich-grid-media:before {
+  background-color: transparent !important;
+}
+#video-preview-container.ytd-video-preview {
+  border-radius: 25px !important;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+  padding: 10px !important;
+}
+ytd-toggle-button-renderer #button.ytd-toggle-button-renderer {
+  color: var(--yt-button-color, inherit);
+  background-color: transparent;
+  text-transform: var(--yt-button-text-transform, inherit);
+  border-radius: 20px !important;
+}
