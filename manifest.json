@@ -10,9 +10,6 @@
       "matches": [
         "https://www.youtube.com/*"
       ],
-      "js": [
-        "app.js"
-      ],
       "css": [
         "style.css"
       ]
